@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E0E2741B9730EE00BBA4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0E2731B9730EE00BBA4CF /* AppDelegate.swift */; };
+		68E0E2771B9730EE00BBA4CF /* Proto2voc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68E0E2751B9730EE00BBA4CF /* Proto2voc.xcdatamodeld */; };
+		68E0E2791B9730EE00BBA4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0E2781B9730EE00BBA4CF /* ViewController.swift */; };
+		68E0E27C1B9730EE00BBA4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E27A1B9730EE00BBA4CF /* Main.storyboard */; };
+		68E0E27E1B9730EE00BBA4CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E27D1B9730EE00BBA4CF /* Images.xcassets */; };
+		68E0E2811B9730EE00BBA4CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E27F1B9730EE00BBA4CF /* LaunchScreen.xib */; };
+		68E0E28D1B9730EE00BBA4CF /* Proto2vocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0E28C1B9730EE00BBA4CF /* Proto2vocTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E0E2871B9730EE00BBA4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E0E2661B9730EE00BBA4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E0E26D1B9730EE00BBA4CF;
+			remoteInfo = Proto2voc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68E0E26E1B9730EE00BBA4CF /* Proto2voc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proto2voc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E0E2721B9730EE00BBA4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E0E2731B9730EE00BBA4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68E0E2761B9730EE00BBA4CF /* Proto2voc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proto2voc.xcdatamodel; sourceTree = "<group>"; };
+		68E0E2781B9730EE00BBA4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68E0E27B1B9730EE00BBA4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E0E27D1B9730EE00BBA4CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68E0E2801B9730EE00BBA4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68E0E2861B9730EE00BBA4CF /* Proto2vocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proto2vocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E0E28B1B9730EE00BBA4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E0E28C1B9730EE00BBA4CF /* Proto2vocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proto2vocTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E0E26B1B9730EE00BBA4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E0E2831B9730EE00BBA4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E0E2651B9730EE00BBA4CF = {
+			isa = PBXGroup;
+			children = (
+				68E0E2701B9730EE00BBA4CF /* Proto2voc */,
+				68E0E2891B9730EE00BBA4CF /* Proto2vocTests */,
+				68E0E26F1B9730EE00BBA4CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E0E26F1B9730EE00BBA4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E0E26E1B9730EE00BBA4CF /* Proto2voc.app */,
+				68E0E2861B9730EE00BBA4CF /* Proto2vocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E0E2701B9730EE00BBA4CF /* Proto2voc */ = {
+			isa = PBXGroup;
+			children = (
+				68E0E2731B9730EE00BBA4CF /* AppDelegate.swift */,
+				68E0E2781B9730EE00BBA4CF /* ViewController.swift */,
+				68E0E27A1B9730EE00BBA4CF /* Main.storyboard */,
+				68E0E27D1B9730EE00BBA4CF /* Images.xcassets */,
+				68E0E27F1B9730EE00BBA4CF /* LaunchScreen.xib */,
+				68E0E2751B9730EE00BBA4CF /* Proto2voc.xcdatamodeld */,
+				68E0E2711B9730EE00BBA4CF /* Supporting Files */,
+			);
+			path = Proto2voc;
+			sourceTree = "<group>";
+		};
+		68E0E2711B9730EE00BBA4CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E0E2721B9730EE00BBA4CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E0E2891B9730EE00BBA4CF /* Proto2vocTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E0E28C1B9730EE00BBA4CF /* Proto2vocTests.swift */,
+				68E0E28A1B9730EE00BBA4CF /* Supporting Files */,
+			);
+			path = Proto2vocTests;
+			sourceTree = "<group>";
+		};
+		68E0E28A1B9730EE00BBA4CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E0E28B1B9730EE00BBA4CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E0E26D1B9730EE00BBA4CF /* Proto2voc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E0E2901B9730EE00BBA4CF /* Build configuration list for PBXNativeTarget "Proto2voc" */;
+			buildPhases = (
+				68E0E26A1B9730EE00BBA4CF /* Sources */,
+				68E0E26B1B9730EE00BBA4CF /* Frameworks */,
+				68E0E26C1B9730EE00BBA4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proto2voc;
+			productName = Proto2voc;
+			productReference = 68E0E26E1B9730EE00BBA4CF /* Proto2voc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E0E2851B9730EE00BBA4CF /* Proto2vocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E0E2931B9730EE00BBA4CF /* Build configuration list for PBXNativeTarget "Proto2vocTests" */;
+			buildPhases = (
+				68E0E2821B9730EE00BBA4CF /* Sources */,
+				68E0E2831B9730EE00BBA4CF /* Frameworks */,
+				68E0E2841B9730EE00BBA4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E0E2881B9730EE00BBA4CF /* PBXTargetDependency */,
+			);
+			name = Proto2vocTests;
+			productName = Proto2vocTests;
+			productReference = 68E0E2861B9730EE00BBA4CF /* Proto2vocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E0E2661B9730EE00BBA4CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Martijn van Gogh";
+				TargetAttributes = {
+					68E0E26D1B9730EE00BBA4CF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					68E0E2851B9730EE00BBA4CF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 68E0E26D1B9730EE00BBA4CF;
+					};
+				};
+			};
+			buildConfigurationList = 68E0E2691B9730EE00BBA4CF /* Build configuration list for PBXProject "Proto2voc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E0E2651B9730EE00BBA4CF;
+			productRefGroup = 68E0E26F1B9730EE00BBA4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E0E26D1B9730EE00BBA4CF /* Proto2voc */,
+				68E0E2851B9730EE00BBA4CF /* Proto2vocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E0E26C1B9730EE00BBA4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E0E27C1B9730EE00BBA4CF /* Main.storyboard in Resources */,
+				68E0E2811B9730EE00BBA4CF /* LaunchScreen.xib in Resources */,
+				68E0E27E1B9730EE00BBA4CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E0E2841B9730EE00BBA4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E0E26A1B9730EE00BBA4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E0E2791B9730EE00BBA4CF /* ViewController.swift in Sources */,
+				68E0E2771B9730EE00BBA4CF /* Proto2voc.xcdatamodeld in Sources */,
+				68E0E2741B9730EE00BBA4CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E0E2821B9730EE00BBA4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E0E28D1B9730EE00BBA4CF /* Proto2vocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E0E2881B9730EE00BBA4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E0E26D1B9730EE00BBA4CF /* Proto2voc */;
+			targetProxy = 68E0E2871B9730EE00BBA4CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68E0E27A1B9730EE00BBA4CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E0E27B1B9730EE00BBA4CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E0E27F1B9730EE00BBA4CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E0E2801B9730EE00BBA4CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E0E28E1B9730EE00BBA4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E0E28F1B9730EE00BBA4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E0E2911B9730EE00BBA4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Proto2voc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68E0E2921B9730EE00BBA4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Proto2voc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68E0E2941B9730EE00BBA4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Proto2vocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proto2voc.app/Proto2voc";
+			};
+			name = Debug;
+		};
+		68E0E2951B9730EE00BBA4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Proto2vocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proto2voc.app/Proto2voc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E0E2691B9730EE00BBA4CF /* Build configuration list for PBXProject "Proto2voc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E0E28E1B9730EE00BBA4CF /* Debug */,
+				68E0E28F1B9730EE00BBA4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E0E2901B9730EE00BBA4CF /* Build configuration list for PBXNativeTarget "Proto2voc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E0E2911B9730EE00BBA4CF /* Debug */,
+				68E0E2921B9730EE00BBA4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68E0E2931B9730EE00BBA4CF /* Build configuration list for PBXNativeTarget "Proto2vocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E0E2941B9730EE00BBA4CF /* Debug */,
+				68E0E2951B9730EE00BBA4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68E0E2751B9730EE00BBA4CF /* Proto2voc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68E0E2761B9730EE00BBA4CF /* Proto2voc.xcdatamodel */,
+			);
+			currentVersion = 68E0E2761B9730EE00BBA4CF /* Proto2voc.xcdatamodel */;
+			path = Proto2voc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68E0E2661B9730EE00BBA4CF /* Project object */;
+}
