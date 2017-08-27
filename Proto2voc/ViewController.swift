@@ -7,12 +7,49 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
 
+    var ding:AVAudioPlayer = AVAudioPlayer()
+ 
+
+    @IBOutlet var sliderValue: UISlider!
+    
+    @IBAction func sliderChanged(sender: AnyObject) {
+    }
+    
+    @IBAction func pause(sender: AnyObject) {
+    }
+    
+    @IBOutlet var play: UIBarButtonItem!
+    
+    @IBAction func playButton(sender: AnyObject) {
+        
+
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        prepareAudios()
+        ding.play()
+               
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "backgrapp1.jpg")!)
+    }
+    
+    func prepareAudios() {
+        
+        var path = NSBundle.mainBundle().pathForResource("Damrakaudio", ofType: "m4a")
+        do {
+            ding = try AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path!))
+        } catch _ {
+            ding = nil
+        }
+        ding.prepareToPlay()
     }
 
     override func didReceiveMemoryWarning() {

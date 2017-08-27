@@ -14,6 +14,10 @@
 		68E0E27E1B9730EE00BBA4CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E27D1B9730EE00BBA4CF /* Images.xcassets */; };
 		68E0E2811B9730EE00BBA4CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E27F1B9730EE00BBA4CF /* LaunchScreen.xib */; };
 		68E0E28D1B9730EE00BBA4CF /* Proto2vocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0E28C1B9730EE00BBA4CF /* Proto2vocTests.swift */; };
+		68E0E2981B97330100BBA4CF /* damrak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E2971B97330100BBA4CF /* damrak.jpg */; };
+		68E0E29C1B9736D100BBA4CF /* backgroundapp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E29B1B9736D100BBA4CF /* backgroundapp.jpg */; };
+		68E0E29E1B9737C300BBA4CF /* backgrapp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E29D1B9737C300BBA4CF /* backgrapp1.jpg */; };
+		68E0E2A01B983FED00BBA4CF /* brenninkeller+toccataandfugueindminorbwv565toccata.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68E0E29F1B983FED00BBA4CF /* brenninkeller+toccataandfugueindminorbwv565toccata.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,11 @@
 		68E0E2861B9730EE00BBA4CF /* Proto2vocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proto2vocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E0E28B1B9730EE00BBA4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E0E28C1B9730EE00BBA4CF /* Proto2vocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proto2vocTests.swift; sourceTree = "<group>"; };
+		68E0E2961B9732E000BBA4CF /* Damrakaudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damrakaudio.m4a; sourceTree = "<group>"; };
+		68E0E2971B97330100BBA4CF /* damrak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damrak.jpg; sourceTree = "<group>"; };
+		68E0E29B1B9736D100BBA4CF /* backgroundapp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundapp.jpg; sourceTree = "<group>"; };
+		68E0E29D1B9737C300BBA4CF /* backgrapp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgrapp1.jpg; sourceTree = "<group>"; };
+		68E0E29F1B983FED00BBA4CF /* brenninkeller+toccataandfugueindminorbwv565toccata.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "brenninkeller+toccataandfugueindminorbwv565toccata.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,10 @@
 				68E0E27D1B9730EE00BBA4CF /* Images.xcassets */,
 				68E0E27F1B9730EE00BBA4CF /* LaunchScreen.xib */,
 				68E0E2751B9730EE00BBA4CF /* Proto2voc.xcdatamodeld */,
+				68E0E29F1B983FED00BBA4CF /* brenninkeller+toccataandfugueindminorbwv565toccata.mp3 */,
+				68E0E2961B9732E000BBA4CF /* Damrakaudio.m4a */,
+				68E0E29A1B97332600BBA4CF /* audiofiles */,
+				68E0E2991B97331800BBA4CF /* Imagefiles */,
 				68E0E2711B9730EE00BBA4CF /* Supporting Files */,
 			);
 			path = Proto2voc;
@@ -113,6 +126,23 @@
 				68E0E28B1B9730EE00BBA4CF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E0E2991B97331800BBA4CF /* Imagefiles */ = {
+			isa = PBXGroup;
+			children = (
+				68E0E29B1B9736D100BBA4CF /* backgroundapp.jpg */,
+				68E0E29D1B9737C300BBA4CF /* backgrapp1.jpg */,
+				68E0E2971B97330100BBA4CF /* damrak.jpg */,
+			);
+			name = Imagefiles;
+			sourceTree = "<group>";
+		};
+		68E0E29A1B97332600BBA4CF /* audiofiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = audiofiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +189,8 @@
 		68E0E2661B9730EE00BBA4CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Martijn van Gogh";
 				TargetAttributes = {
@@ -196,8 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				68E0E27C1B9730EE00BBA4CF /* Main.storyboard in Resources */,
+				68E0E2981B97330100BBA4CF /* damrak.jpg in Resources */,
 				68E0E2811B9730EE00BBA4CF /* LaunchScreen.xib in Resources */,
+				68E0E2A01B983FED00BBA4CF /* brenninkeller+toccataandfugueindminorbwv565toccata.mp3 in Resources */,
+				68E0E29C1B9736D100BBA4CF /* backgroundapp.jpg in Resources */,
 				68E0E27E1B9730EE00BBA4CF /* Images.xcassets in Resources */,
+				68E0E29E1B9737C300BBA4CF /* backgrapp1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +451,7 @@
 				68E0E2921B9730EE00BBA4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E0E2931B9730EE00BBA4CF /* Build configuration list for PBXNativeTarget "Proto2vocTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +460,7 @@
 				68E0E2951B9730EE00BBA4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
